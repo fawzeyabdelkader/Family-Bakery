@@ -1,0 +1,440 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.nav {
+    background-color: rgb(229, 234, 235);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.test1 img {
+    margin-left: 50px;
+}
+
+.nav img {
+    width: 150px;
+    float: left;
+}
+
+.nav .list {
+    color: black;
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.list a span {
+    width: 100%;
+    padding: 13px;
+}
+
+.list span {
+    color: #000;
+}
+
+.list span:hover {
+    background-color: #bf9547;
+    border-radius: 10px;
+}
+
+.test2 {
+    width: 50px;
+    height: 90px;
+    background-color: rgb(229, 234, 235);
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.test2 img {
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.7;
+    border-radius: 20%;
+}
+
+.test2 .stt1:hover {
+    background-color: #349ae3;
+}
+
+.test2 .stt2:hover {
+    background-color: #c54876;
+}
+
+.six {
+    margin: 10px;
+}
+
+/* section-1 */
+body {
+    font-family: "Alegreya";
+    font-size: 17px;
+}
+
+.header {
+    background-color: #fff;
+    height: 100vh;
+    background-image:url(../images/drew-coffman-1872.jpg);
+     background-position: center center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    overflow: auto;
+}
+
+.header .title-hed {
+    padding: 150px;
+     color: #fff;
+    font-family: '"Alegreya"';
+}
+
+.title-hed {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header .title-hed .p1 {
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.header .title-hed h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.header .title-hed .p2 {
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+.btn1 {
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #8e7754;
+}
+
+.btn2 {
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #222;
+    border-color: #fff;
+}
+
+/* section-2 */
+.item {
+    overflow: auto;
+    clear: both;
+}
+
+.item .item2 img {
+    width: 40%;
+    float: left;
+    padding-top: 60px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+
+.item .item3 {
+    width: 40%;
+    font-size: larger;
+    float: left;
+    padding-top: 100px;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+
+.item .item3 p {
+    margin-left: 15px;
+    opacity: 0.7;
+}
+
+.item3 img {
+    width: 40px;
+    border: solid;
+    border-width: thin;
+    border-color: #8f7755;
+    border-radius: 50%;
+}
+
+.item .item4 {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.item .item4 span {
+    opacity: 0.7;
+}
+
+/* section-3 */
+.chef {
+    overflow: auto;
+    background-color: #f8f8f8;
+}
+
+.chef-img {
+    width: 35%;
+    float: right;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    margin-right: 100px;
+}
+
+.chef-img img {
+    width: 100%;
+}
+
+.chef-info {
+    width: 40%;
+    float: right;
+    font-size: large;
+    padding-top: 200px;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+.chef-info p {
+    opacity: 0.6;
+    margin-top: 30px;
+}
+
+.Baking {
+    background-color: #fff;
+}
+
+.gallery {
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+.gallery h2 {
+    font-size: 30px;
+}
+
+.gallery p {
+    margin-top: 25px;
+}
+
+.gallery-item {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 45px;
+}
+
+.gallery-item h4 {
+    font-size: 22px;
+    margin: 10px;
+}
+
+.text-item {
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin: 20px;
+}
+
+.text-item img {
+    width: 100%;
+}
+
+.gallery,
+.gallery-item p {
+    opacity: 0.9;
+    font-size: 17px;
+    padding: 30px;
+}
+
+/* section-5 */
+.inform {
+    background-color: #f8f8f8;
+    overflow: auto;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.map {
+    width: 40%;
+    float: right;
+    margin: 50px 60px;
+}
+
+.location {
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.information {
+    margin-left: 50px;
+}
+
+.information p {
+    margin-top: 20px;
+}
+
+.information img {
+    width: 40px;
+    background-color: #8e7754;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+/* section-6 */
+.section-six {
+    background-color: #484137;
+    color: #f8f8f8;
+    overflow: auto;
+    padding-top: 67px;
+    padding-bottom: 80px;
+}
+
+.contact p {
+    color: #969696;
+}
+
+.six div {
+    width: 25%;
+    float: left;
+    padding: 60px 0px 70px 70px;
+}
+
+.six img {
+    width: 20px;
+}
+
+.contact hr {
+    opacity: 0.2;
+}
+
+.six-par1 {
+    width: 25%;
+    float: left;
+}
+
+.six-par1 img {
+    width: 10px;
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+
+}
+
+.title-widget {
+    margin-bottom: 25px;
+}
+
+tr {
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+}
+
+.details img {
+    width: 30px;
+}
+
+.recipe p,
+img {
+    margin-top: 15px;
+}
+
+.week {
+    margin-top: 30px;
+}
+
+.day p,
+img {
+    margin-top: 15px;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.media p,
+img {
+    margin-top: 15px;
+}
+
+/* section-7 */
+.end {
+    background-color: #353330;
+    text-align: center;
+}
+
+.end .imag {
+    padding: 30px;
+}
+
+.end span {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.scoial img {
+    width: 40px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+}
+
+.facebook:hover {
+    background-color: #0275d8;
+}
+
+.google:hover {
+    background-color: #ef6a52;
+}
+
+.linkedin:hover {
+    background-color: #3a16de;
+}
+
+.twitter:hover {
+    background-color: #349ae3;
+}
+.scoial a{
+    text-decoration: none;
+}
